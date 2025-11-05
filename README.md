@@ -128,7 +128,7 @@ Install Tampermonkey from your browser’s extension store:
 
 After installation, ensure the Tampermonkey icon appears in the browser toolbar.
 
-![Screenshot A: Tampermonkey in the browser extension store / installed](https://private-user-images.githubusercontent.com/102719366/510088661-db47d3e7-e09a-4c6c-90bd-52c49bc934c9.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjIzNDIwNjgsIm5iZiI6MTc2MjM0MTc2OCwicGF0aCI6Ii8xMDI3MTkzNjYvNTEwMDg4NjYxLWRiNDdkM2U3LWUwOWEtNGM2Yy05MGJkLTUyYzQ5YmM5MzRjOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMTA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTEwNVQxMTIyNDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05YzZiNGY1ZDA0MDhhY2RlMmNlYzQwZGQ1MWMwMGU4NDgyNjFjYThlNWM2MTMxOTg0ZDg4OGJiNWI3MzMzZDAzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.lPzW7Fpc7_2qov2hqGbud3A27mNzmC4FVtMzFemehnE)
+![Screenshot A: Tampermonkey in the browser extension store / installed](https://github.com/user-attachments/assets/db47d3e7-e09a-4c6c-90bd-52c49bc934c9)
 
 ### 2) Enable (or verify) permissions in Tampermonkey (follow the official docs)
 
@@ -139,7 +139,7 @@ To ensure the script runs correctly on ChatGPT and can make network requests, fo
 
 Open the Tampermonkey icon → Dashboard → Settings and configure as recommended by the docs (you may set Config Mode to Advanced to reveal more options).
 
-![Screenshot B: Tampermonkey Dashboard → Settings, highlight permissions](https://private-user-images.githubusercontent.com/102719366/510089048-1f67b4d4-5ffe-4b1c-ba26-0e6466eaa3f6.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjIzNDIwNjgsIm5iZiI6MTc2MjM0MTc2OCwicGF0aCI6Ii8xMDI3MTkzNjYvNTEwMDg5MDQ4LTFmNjdiNGQ0LTVmZmUtNGIxYy1iYTI2LTBlNjQ2NmVhYTNmNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMTA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTEwNVQxMTIyNDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03Y2Q1MjI3NjAxZjNhMmFlYTM1MDkyNzBlNjEyYTMzMDAyOGEzYWFjN2M1ZWE2NGQ5M2U4YjY0NzNkNDliZGMxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.b29xx1Y4kzk9EnD-6BF0gbx9G4B-CwFHM8gZOqRhp4g)
+![Screenshot B: Tampermonkey Dashboard → Settings, highlight permissions](https://github.com/user-attachments/assets/1f67b4d4-5ffe-4b1c-ba26-0e6466eaa3f6)
 
 ### 3) Import this userscript
 
@@ -154,7 +154,7 @@ Two common ways — pick one:
 - Tampermonkey Dashboard → Utilities.
 - Use “Import from file” and select the local `userscript.js`, then save and enable it.
 
-![Screenshot C: New/Import script page showing paste/file selection](https://private-user-images.githubusercontent.com/102719366/510089516-b5c2b46d-2189-4166-a073-f6f0670a7a63.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjIzNDIwNjgsIm5iZiI6MTc2MjM0MTc2OCwicGF0aCI6Ii8xMDI3MTkzNjYvNTEwMDg5NTE2LWI1YzJiNDZkLTIxODktNDE2Ni1hMDczLWY2ZjA2NzBhN2E2My5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMTA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTEwNVQxMTIyNDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04NGVlYjM1N2RjZDQwMzE3OWI1ZDU4NDA1ZmNjNWQ5NDVmNzRjYjQ3MTRlYjNhODBlYjEyMmVkYWQ1MjFmMjQwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.GsfspZQmMLO6Zy0P48rvaPxeVqH8AWj01XciadyqOOE)
+![Screenshot C: New/Import script page showing paste/file selection](https://github.com/user-attachments/assets/b5c2b46d-2189-4166-a073-f6f0670a7a63)
 
 Ensure the script is Enabled after saving.
 
@@ -169,9 +169,9 @@ Ensure the script is Enabled after saving.
    - Team: Workspace ID is auto-detected; if not, paste a valid `ws-...` ID
    - Buttons: Cancel / Start Export
 
-![Screenshot D: Bottom-right “Export Conversations” button on ChatGPT](https://private-user-images.githubusercontent.com/102719366/510091014-a3bc281b-559b-4883-a770-fa4f907411d1.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjIzNDIwNjgsIm5iZiI6MTc2MjM0MTc2OCwicGF0aCI6Ii8xMDI3MTkzNjYvNTEwMDkxMDE0LWEzYmMyODFiLTU1OWItNDg4My1hNzcwLWZhNGY5MDc0MTFkMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMTA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTEwNVQxMTIyNDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iMGU0ODNlNTRmZDJiOWU5NTUwNWMyNzY4YzhiMjdhMGUzYmNhMjhhYjBjYWZjMDVlMTZiZjgyNWMyNWIwMzRkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.rBeb2_ulTSeHikaoOtdm6EECXy1xdyPtdd2HZKXgJb4)
+![Screenshot D: Bottom-right “Export Conversations” button on ChatGPT](https://github.com/user-attachments/assets/a3bc281b-559b-4883-a770-fa4f907411d1)
 
-![Screenshot E: Export dialog (formats, personal/team, Workspace ID, Start Export)](https://private-user-images.githubusercontent.com/102719366/510091060-95521427-cf22-407c-aa00-17874743d8a1.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjIzNDIwNjgsIm5iZiI6MTc2MjM0MTc2OCwicGF0aCI6Ii8xMDI3MTkzNjYvNTEwMDkxMDYwLTk1NTIxNDI3LWNmMjItNDA3Yy1hYTAwLTE3ODc0NzQzZDhhMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMTA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTEwNVQxMTIyNDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03ZmIzNmYwZmFjNDRhNWZkMGIwMDljZDZhODkyZmIwMmQyMjUzZjQ4YTYxNjI1MDhjZjY3N2U2YTAwMjAwZWI1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.PfsUBtvPQ37UTHMmPXDTYa5qhU1hqZWKuFc6XFC0qf4)
+![Screenshot E: Export dialog (formats, personal/team, Workspace ID, Start Export)](https://github.com/user-attachments/assets/95521427-cf22-407c-aa00-17874743d8a1)
 
 When you click “Start Export”, the bottom-right button shows progress like:
 - “Fetching conversations outside projects…”
